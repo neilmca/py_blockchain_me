@@ -1,20 +1,22 @@
 (A) Activate 2 virtual environments - one to run each node server
 Node 1:
 python3 -m venv myenv
+source myenv/bin/activate
 pip install flask
 pip install requests
-source myenv/bin/activate
+
 
 Node 2:
 python3 -m venv myenv2
+source myenv2/bin/activate
 pip install flask
 pip install requests
-source myenv2/bin/activate
+
 
 
 (B) Start both nodes on different ports:
-python blockchain.py 5000
-python blockchain.py 5001
+python3 blockchain.py 5000
+python3 blockchain.py 5001
 
 (C) Register both nodes with each other
 
