@@ -1,3 +1,4 @@
+Follow instructions here.
 (A) Activate 2 virtual environments - one to run each node server
 Node 1:
 python3 -m venv myenv
